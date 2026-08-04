@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Habibur Sumon - Software Engineer</title>
+    <meta name="description" content="Get in touch with Habibur Sumon, Software Engineer at Unisoft System Limited. Contact for job opportunities, project collaborations, or professional inquiries.">
+    <meta property="og:title" content="Contact Habibur Sumon | Software Engineer">
+    <meta property="og:description" content="Get in touch with Habibur Sumon for job opportunities and collaborations.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Floating Blurred Background Gradients -->
+    <div class="bg-gradients" aria-hidden="true">
+        <div class="bg-gradient-blob bg-gradient-blob-1"></div>
+        <div class="bg-gradient-blob bg-gradient-blob-2"></div>
+        <div class="bg-gradient-blob bg-gradient-blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Habibur Sumon - Home">HS<span class="logo-dot">.</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="contact.html" class="nav-link nav-cta active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Get In Touch</h1>
+                <p class="page-subtitle">Let's discuss your project or potential opportunities</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" aria-label="Contact information and form">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h2 class="section-title">Contact Information</h2>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <span class="contact-icon" aria-hidden="true">📧</span>
+                                <div>
+                                    <h3>Email</h3>
+                                    <a href="mailto:webdeveloperhabibur@gmail.com">webdeveloperhabibur@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-icon" aria-hidden="true">💼</span>
+                                <div>
+                                    <h3>LinkedIn</h3>
+                                    <a href="https://www.linkedin.com/in/habibur-sumon/" target="_blank" rel="noopener noreferrer">linkedin.com/in/habibur-sumon</a>
+
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-icon" aria-hidden="true">💻</span>
+                                <div>
+                                    <h3>GitHub</h3>
+                                    <a href="https://github.com/HabiburSumon" target="_blank" rel="noopener noreferrer">github.com/habibursumon</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-icon" aria-hidden="true">📍</span>
+                                <div>
+                                    <h3>Location</h3>
+                                    <p>Bangladesh</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-availability">
+                            <h3>Availability</h3>
+                            <p>Currently open to freelance projects and full-time opportunities.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h2 class="section-title">Send Me a Message</h2>
+                        <form id="contact-form" class="contact-form" action="#" method="POST" novalidate>
+                            <div class="form-group">
+                                <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+                                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your full name">
+                                <span class="form-error" id="name-error" aria-live="polite"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+                                <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+                                <span class="form-error" id="email-error" aria-live="polite"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or inquiry..."></textarea>
+                                <span class="form-error" id="message-error" aria-live="polite"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">HS<span class="logo-dot">.</span></a>
+                    <p>Software Engineer building secure, scalable mobile and web solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/habibur-sumon/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a></li>
+
+                        <li><a href="https://github.com/habibursumon" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a></li>
+                        <li><a href="mailto:habibur@example.com" aria-label="Email">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Habibur Sumon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
